@@ -9,7 +9,7 @@ after long periods not working with that software/language. It serves me as a re
 
 1. Pandoc
 
-2. 
+2. Shell
 
 ## Converting the cheatsheets to PDF with Pandoc
 
@@ -18,3 +18,7 @@ I use the following parameters to call pandoc to generate these cheatsheets:
 ```
 pandoc input-filename.md --toc --highlight-style breezedark -o output-filename.pdf
 ```
+
+## Links
+
+(Tips and tricks for Pandoc)[https://girondi.net/post/pandoc_notes/]

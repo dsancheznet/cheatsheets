@@ -14,4 +14,7 @@ after long periods not working with that software/language. It serves me as a re
 ## Converting the cheatsheets to PDF with Pandoc
 
 I use the following parameters to call pandoc to generate these cheatsheets:
-`pandoc filename.md --toc --highlight-style breezedark -o filename.pdf`
+
+```
+pandoc input-filename.md --toc --highlight-style breezedark -o output-filename.pdf
+```

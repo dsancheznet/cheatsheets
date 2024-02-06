@@ -1,9 +1,12 @@
 % PHP Cheatshet
 % &copy;D.Sánchez
 % 2024
-
+---
+header-includes:
+ - \usepackage{fvextra}
+ - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+---
 \pagebreak
-
 # PHP Cheatsheet ( OOP included )
 
 ## Defining Classes:
@@ -131,45 +134,45 @@ default:
 ## Operators
 
 ### Arithmetical Operators:
-`a+b`	Sum
-`a-b`	Difference
-`a*b`	Multiplication
-`a/b`	Division ( with floating point result )
-`a%b`	Modulus
-`a**b`	a to the power of b
+* `a+b`	Sum
+* `a-b`	Difference
+* `a*b`	Multiplication
+* `a/b`	Division ( with floating point result )
+* `a%b`	Modulus
+* `a**b`	a to the power of b
 
 ### Incremental Operators:
-`++a`	Pre Increment
-`a++`	Post Increment
-`--b`	Pre Decrement
-`b--`	Post Decrement
+* `++a`	Pre Increment
+* `a++`	Post Increment
+* `--b`	Pre Decrement
+* `b--`	Post Decrement
 
 ### Bitwise Operators:
-`a&b`	Bitwise AND
-`a|b`	Bitwise OR
-`a^b`	Bitwise XOR
-`~a`	Bitwise NOT
-`a<<b`	Bitwise SHL
-`a>>b`	Bitwise SHR
+* `a&b`	Bitwise AND
+* `a|b`	Bitwise OR
+* `a^b`	Bitwise XOR
+* `~a`	Bitwise NOT
+* `a<<b`	Bitwise SHL
+* `a>>b`	Bitwise SHR
 
 ### Logical Operators:
-`a&&b`
-`a and b` 	Logical AND 
-`a||b`
-`a or b` 	Logical OR
-`a xor b`	Logical XOR
-`!a`		Logical NOT
+* `a&&b`
+* `a and b` 	Logical AND 
+* `a||b`
+* `a or b` 	Logical OR
+* `a xor b`	Logical XOR
+* `!a`		Logical NOT
 
 ### Comparison Operators:
-`a == b`	Equal
-`a <> b`	Not Equal
-`a != b`	Not Equal
-`a === b`	Identical
-`a !== b`	Not Identical
-`a < b`		Less than
-`a <= b`	Less or equal
-`a > b`		Greater than
-`a >= b`	Greater or equal
+* `a == b`	Equal
+* `a <> b`	Not Equal
+* `a != b`	Not Equal
+* `a === b`	Identical
+* `a !== b`	Not Identical
+* `a < b`		Less than
+* `a <= b`	Less or equal
+* `a > b`		Greater than
+* `a >= b`	Greater or equal
 
 
 

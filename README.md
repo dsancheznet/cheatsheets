@@ -14,6 +14,8 @@ after long periods of not working with that software/language. It serves me as a
 
 3. PHP
 
+4. sqlite3
+
 ## Converting the cheatsheets to PDF with Pandoc
 
 I use the following parameters to call pandoc to generate these cheatsheets:
@@ -22,7 +24,7 @@ I use the following parameters to call pandoc to generate these cheatsheets:
 pandoc input-filename.md --toc --highlight-style breezedark --pdf-engine=xelatex -V papersize:a4 -o output-filename.pdf
 ```
 
-Furthermore, I have added a make file which compiles the MD files automatically. Just issue a  `make` and the PDF
+Furthermore, I have added a make file which compiles the MD files automatically. Just issue a `make` and the PDF
 files will be rebuilt ( if neccessary ). 
 
 ## Links

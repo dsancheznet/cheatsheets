@@ -39,5 +39,6 @@ should be applicable to other shells as well. Whoever wants to have a PR incorpo
 
 ```
 //TODO
+- Write Programming Manual
 ```
 

@@ -16,6 +16,8 @@ after long periods of not working with that software/language. It serves me as a
 
 4. sqlite3
 
+5. encryption
+
 ## Converting the cheatsheets to PDF with Pandoc
 
 I use the following parameters to call pandoc to generate these cheatsheets:

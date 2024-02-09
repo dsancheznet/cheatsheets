@@ -35,6 +35,16 @@ should be applicable to other shells as well. Whoever wants to have a PR incorpo
 | `Ctrl+n`  | Next command from the History |
 | `Ctrl+p`  | previous command from the History |
 
+## Bang commands
+
+`!!`      – run last command
+`!blah`   – run the most recent command that starts with ‘blah’ (e.g. !ls)
+`!blah:p` – print out the command that !blah would run (also adds it as the latest command in the command history)
+`!$`      – the last word of the previous command (same as Alt + .)
+`!$:p`    – print out the word that !$ would substitute
+`!*`      – the previous command except for the last word (e.g. if you type ‘_find somefile.txt /’, then !* would give you ‘_find somefile.txt’)
+`!*:p`    – print out what !* would substitute
+
 ## Programming
 
 ```
